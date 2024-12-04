@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Оставить отзыв</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">🏠</a>
+        <a href="stretching.html">Стретчинг</a>
+        <a href="yoga.html">Йога</a>
+        <a href="dancing.html">Танцы</a>
+        <a href="trainers.html">Тренеры</a>
+        <a href="feedback.html" class="active">Оставить отзыв</a>
+    </nav>
+
+    <div class="container"></div>
+<form action="https://www.bing.com/search?">
+    <h3>Оставьте отзыв:<input type="hidden"  name="q" value="search"></h3>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Иванова"></p>
+    <p>Имя: <input type="Text" name="name" size=20  value="Мария"></p>
+    <p>Группа (направление):
+        <input type="Radio" name="group" value="Dance">Танцы
+        <input type="Radio" name="group" value="stretch" checked >Стретчинг
+        <input type="Radio" name="group" value="Yoga" checked >Йога
+    </p>
+    <p> Отзыв:
+        <br>
+        <TEXTAREA cols=80 rows=4 name="textarea" >Тренировка понравилась, внимательный тренер, прийду еще</TEXTAREA> 
+    </p>
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+</form>
+    </div>
+
+</body>
+</html>
